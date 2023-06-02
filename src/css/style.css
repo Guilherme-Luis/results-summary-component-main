@@ -1,0 +1,126 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Hanken Grotesk', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+main .MainBody{
+    background-color: white;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    width: 600px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    justify-content: space-between;
+}
+main .Results{
+    color: white;
+    border-radius: 15px;
+    width: 280px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-image: linear-gradient(to top, rgb(22, 22, 216), rgb(107, 65, 234));
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.MainPoint{
+    font-size: 40px;
+}
+.AllPoint{
+    font-size: 15px;
+}
+.Title{
+    padding-bottom: 10px;
+    color: rgb(219, 226, 233);
+    padding-top: 20px;
+}
+.Score{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-image: linear-gradient(to top, rgb(43, 43, 238), rgb(18, 68, 138));
+    padding: 30px;
+}
+.Feedback{
+    font-weight: bolder;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.Description{
+    color: rgb(193, 201, 208);
+    font-size: 12px;
+    width: 175px;
+}
+main .Summary{
+    width: 250px;
+    height: 320px;
+    text-align: left;
+    margin-right: 40px;
+}
+li{
+    border-radius: 5px;
+    height: 45px;
+    margin: 10px;
+}
+li, button, .icon, .IconScore, .Index{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    font-weight: bold;
+}
+.icon, .IconScore{
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+button{
+    width: 225px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.Continue{
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    background-image: linear-gradient(to top, rgb(22, 22, 216), rgb(107, 65, 234));
+    color: white;
+}
+.AllScore{
+    color: rgb(164, 177, 190);
+}
+.FinalScore{
+    font-weight: bold;
+    color: black;
+}
+.Reaction{
+    background-color: hsl(0, 100%, 93%);
+    color: hsl(0, 100%, 67%);
+}
+.Memory{
+    background-color: hsl(38, 100%, 96%);
+    color: hsl(39, 100%, 56%)
+}
+.Verbal{
+    background-color: hsl(166, 100%, 95%);
+    color: hsl(166, 100%, 37%);
+}
+.Visual{
+    background-color: hsl(235, 57%, 88%);
+    color: hsl(234, 85%, 45%);
+}
+
